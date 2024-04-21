@@ -16,15 +16,18 @@ export function Navbar() {
           </Link>
           <nav className="ml-auto flex gap-4 sm:gap-6 mr-6">
             <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
-              Projects
+              Home
             </Link>
             <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
-              Contact
+              Portfolio
             </Link>
             <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
               Pricing
             </Link>
-            <div className="flex items-center justify-center rounded-lg px-1 py-1 hover:bg-gray-100 dark:hover:bg-gray-800">
+            <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
+              Contact
+            </Link>
+            <div className="flex items-center justify-center rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800">
               <ThemeSwitch />
             </div>
           </nav>
