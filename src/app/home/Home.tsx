@@ -36,6 +36,9 @@ export default function Home() {
         <HeroParallaxDemo />
       </div>
       <div className="w-full h-[88rem] bg-white dark:bg-white">
+        <h1 className="text-black text-5xl">
+          Hatdog
+        </h1>
       </div>
     </div>
   );

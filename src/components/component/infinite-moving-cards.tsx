@@ -1,6 +1,8 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import Image from "next/image";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -11,9 +13,9 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    quote: string;
-    name: string;
     title: string;
+    link: string;
+    thumbnail: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -86,34 +88,15 @@ export const InfiniteMovingCards = ({
         )}
       >
         {items.map((item, idx) => (
-          <li
-            className="w-[350px] max-w-full relative rounded-2xl border border-b-0 flex-shrink-0 border-gray-700 px-8 py-6 md:w-[450px]"
-            style={{
-              background:
-                "--gray-900",
-            }}
-            key={item.name}
-          >
-            <blockquote>
-              <div
-                aria-hidden="true"
-                className="user-select-none -z-1 pointer-events-none absolute -left-0.5 -top-0.5 h-[calc(100%_+_4px)] w-[calc(100%_+_4px)]"
-              ></div>
-              <span className=" relative z-20 text-sm leading-[1.6] text-gray-100 font-normal">
-                {item.quote}
-              </span>
-              <div className="relative z-20 mt-6 flex flex-row items-center">
-                <span className="flex flex-col gap-1">
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.name}
-                  </span>
-                  <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
-                  </span>
-                </span>
-              </div>
-            </blockquote>
-          </li>
+          <Link key={item.title} href={item.link}>
+            <Image
+              src={item.thumbnail}
+              height="1000"
+              width="1000"
+              className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+              alt={item.title}
+            />
+          </Link>
         ))}
       </ul>
     </div>
