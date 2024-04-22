@@ -93,6 +93,7 @@ export const InfiniteMovingCards = ({
               src={item.thumbnail}
               height="1000"
               width="1000"
+              objectFit="cover"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt={item.title}
             />
