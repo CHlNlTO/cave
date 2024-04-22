@@ -1,5 +1,6 @@
 import AceternityButton from '@/components/component/button'
 import AceternityButtonOutline from '@/components/component/button-outline';
+import { GlobeDemo } from '@/components/component/globe-demo';
 import { HeroParallaxDemo } from '@/components/component/hero-parallax-demo';
 import { SparklesPreview } from '@/components/component/sparkle-preview';
 import { ThreeDCardDemo } from '@/components/component/three-d-card-demo';
@@ -35,10 +36,8 @@ export default function Home() {
       <div className="w-full h-[300vh] sm:h-[350vh] bg-white dark:bg-black">
         <HeroParallaxDemo />
       </div>
-      <div className="w-full h-[88rem] bg-white dark:bg-white">
-        <h1 className="text-black text-5xl">
-          Hatdog
-        </h1>
+      <div className="w-full h-[88rem] bg-white dark:bg-black">
+        <GlobeDemo />
       </div>
     </div>
   );
