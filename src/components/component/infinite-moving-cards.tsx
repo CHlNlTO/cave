@@ -91,8 +91,8 @@ export const InfiniteMovingCards = ({
           <Link key={item.title} href={item.link}>
             <Image
               src={item.thumbnail}
-              height="100"
-              width="100"
+              height="1000"
+              width="1000"
               className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
               alt={item.title}
             />
