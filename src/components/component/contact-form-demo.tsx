@@ -8,6 +8,7 @@ import {
   IconBrandFacebook,
   IconBrandInstagram,
   IconBrandTiktok,
+  IconMail,
   IconPhone,
 } from "@tabler/icons-react";
 import Link from "next/link";
@@ -24,7 +25,7 @@ export function ContactFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black border">
+    <div className="max-w-2xl w-full mx-4 md:mx-auto rounded-xl sm:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black border">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
         Welcome to Cave Technologies
       </h2>
@@ -79,7 +80,7 @@ export function ContactFormDemo() {
               className=" relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-black rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
               type="submit"
             >
-              <IconPhone className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
+              <IconMail className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
               <span className="text-neutral-700 dark:text-neutral-300 text-sm">
                 clark.wayne023@gmail.com
               </span>
@@ -99,40 +100,37 @@ export function ContactFormDemo() {
             </button>
         </Link>
         <Link href={facebook} target="_blank" passHref>
-          <button
+          <span
             className=" relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-black rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
-            type="submit"
           >
             <IconBrandFacebook className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
             <span className="text-neutral-700 dark:text-neutral-300 text-sm">
               Facebook
             </span>
             <BottomGradient />
-          </button>
+          </span>
         </Link>
         <Link href={instagram} target="_blank" passHref>
-          <button
+          <span
             className=" relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-black rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
-            type="submit"
           >
             <IconBrandInstagram className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
             <span className="text-neutral-700 dark:text-neutral-300 text-sm">
               Instagram
             </span>
             <BottomGradient />
-          </button>
+          </span>
         </Link>
         <Link href={tiktok} target="_blank" passHref>
-          <button
+          <span
             className=" relative group/btn flex space-x-2 items-center justify-start px-4 w-full text-black rounded-md h-10 font-medium shadow-input bg-gray-50 dark:bg-zinc-900 dark:shadow-[0px_0px_1px_1px_var(--neutral-800)]"
-            type="submit"
           >
             <IconBrandTiktok className="h-4 w-4 text-neutral-800 dark:text-neutral-300" />
             <span className="text-neutral-700 dark:text-neutral-300 text-sm">
               Tiktok
             </span>
             <BottomGradient />
-          </button>
+          </span>
         </Link>
         </div>
       </form>

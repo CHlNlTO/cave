@@ -15,13 +15,13 @@ export function Navbar() {
             <span className="sr-only">Cave</span>
           </Link>
           <nav className="ml-auto flex gap-4 sm:gap-6 mr-6">
-            <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
+            <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="/">
               Home
             </Link>
             <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
               Portfolio
             </Link>
-            <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
+            <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="/pricing">
               Pricing
             </Link>
             <Link className="text-sm font-medium hover:underline underline-offset-4 text-gray-800 dark:text-white" href="#">
