@@ -13,10 +13,10 @@ export const products = [
       "https://aceternity.com/images/products/thumbnails/new/moonbeam.png",
   },
   {
-    title: "Cursor",
-    link: "https://cursor.so",
+    title: "Town Place Steel and Aluminum",
+    link: "https://townplace-steel-and-aluminum.vercel.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cursor.png",
+      "https://raw.githubusercontent.com/CHlNlTO/townplace-steel-and-aluminum/main/src/assets/town_place.png",
   },
   {
     title: "Rogue",
@@ -45,10 +45,10 @@ export const products = [
   },
 
   {
-    title: "Algochurn",
-    link: "https://algochurn.com",
+    title: "Naples Commercial Cleaning",
+    link: "https://www.naplescommercialcleaning.com/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/algochurn.png",
+      "https://raw.githubusercontent.com/CHlNlTO/website-template-1/main/src/assets/naples_cleaning.png",
   },
   {
     title: "Aceternity UI",
@@ -74,12 +74,17 @@ export const products = [
     thumbnail:
       "https://aceternity.com/images/products/thumbnails/new/renderwork.png",
   },
-
   {
-    title: "Creme Digital",
-    link: "https://cremedigital.com",
+    title: "Construction Inc",
+    link: "https://website-template-1-gamma.vercel.app/",
     thumbnail:
-      "https://aceternity.com/images/products/thumbnails/new/cremedigital.png",
+      "https://raw.githubusercontent.com/CHlNlTO/website-template-1/main/src/assets/website-template-1.png",
+  },
+  {
+    title: "FAITH Professor Evaluation System",
+    link: "https://chlnlto.github.io/evaluation-project/",
+    thumbnail:
+      "https://raw.githubusercontent.com/CHlNlTO/evaluation-project/gh-pages/img/evaluation_forms.png",
   },
   {
     title: "Golden Bells Academy",

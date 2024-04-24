@@ -32,7 +32,7 @@ export function Pricing() {
       <div className="absolute top-[400px] left-0 right-0 bottom-0 m-auto h-[500px] w-[500px] bg-gradient-to-r from-white to-white transform scale-[0.5] bg-black rounded-full blur-[512px]" />
         <div className="container px-4 md:px-6 mb-20">
           <div className="flex flex-col lg:flex-row justify-center items-center gap-8">
-            <div className="flex flex-col p-12 gap-3 lg:gap-20 max-w-sm bg-white dark:bg-black shadow-lg rounded-lg dark:bg-zinc-850 border border-zinc-700 z-20">
+            <div className="flex flex-col p-12 gap-16 lg:gap-20 max-w-sm bg-white dark:bg-black shadow-lg rounded-lg dark:bg-zinc-850 border border-zinc-700 z-20">
               <div className="flex flex-col gap-12">
                 <div className="flex flex-col gap-1">
                   <h3 className="text-xl font-bold text-start text-black dark:text-white">Basic</h3>
@@ -101,7 +101,7 @@ export function Pricing() {
             >
               <div className="relative border border-gray-300 rounded-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-zinc-300 to-zinc-500 blur-sm border border-gray-300 rounded-lg"></div>
-              <div className="relative flex flex-col p-12 gap-3 lg:gap-20 max-w-sm bg-white dark:bg-black shadow-lg rounded-lg dark:bg-zinc-850 border border-zinc-700 z-20">
+              <div className="relative flex flex-col p-12 gap-16 lg:gap-20 max-w-sm bg-white dark:bg-black shadow-lg rounded-lg dark:bg-zinc-850 border border-zinc-700 z-20">
                 <div className="p-4 text-xs font-bold text-white dark:text-black bg-gradient-to-r from-black to-zinc-700 dark:from-white dark:to-zinc-300 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                   Most Popular
                 </div>
@@ -158,7 +158,7 @@ export function Pricing() {
               </div>
               </div>
             </motion.div>
-            <div className="flex flex-col p-12 gap-3 lg:gap-20 max-w-sm bg-white dark:bg-black shadow-lg rounded-lg dark:bg-zinc-850 border border-zinc-700 z-20">
+            <div className="flex flex-col p-12 gap-16 lg:gap-20 max-w-sm bg-white dark:bg-black shadow-lg rounded-lg dark:bg-zinc-850 border border-zinc-700 z-20">
               <div className="flex flex-col gap-12">
                 <div className="flex flex-col gap-1">
                   <div className="flex flex-row items-end gap-1">

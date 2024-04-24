@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Navbar } from "@/components/component/Navbar";
+import { Navbar } from "@/app/Navbar/Navbar";
 import { Providers } from "./providers";
 import { Analytics } from "@vercel/analytics/react";
 
@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   title: "Cave - your business, online.",
   description: "We offer seamless websites, putting businesses online.",
 };
+
+
 
 export default function RootLayout({
   children,
