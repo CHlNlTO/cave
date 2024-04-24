@@ -63,13 +63,19 @@ export function Pricing() {
                   <li className="flex items-center">
                     <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
                     <p className="text-black dark:text-zinc-400 text-sm">
-                      SEO Optimization
+                      Email Integration
                     </p>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
                     <p className="text-black dark:text-zinc-400 text-sm">
-                      Connect Google My Business
+                      Basic SEO Optimization
+                    </p>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
+                    <p className="text-black dark:text-zinc-400 text-sm">
+                      Basic Security Measures
                     </p>
                   </li>
                 </ul>
@@ -96,7 +102,7 @@ export function Pricing() {
               <div className="relative border border-gray-300 rounded-lg">
                 <div className="absolute inset-0 bg-gradient-to-br from-zinc-300 to-zinc-500 blur-sm border border-gray-300 rounded-lg"></div>
               <div className="relative flex flex-col p-12 gap-3 lg:gap-20 max-w-sm bg-white dark:bg-black shadow-lg rounded-lg dark:bg-zinc-850 border border-zinc-700 z-20">
-                <div className="p-4 text-xs font-bold text-white dark:text-black bg-gradient-to-r from-white to-zinc-300 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                <div className="p-4 text-xs font-bold text-white dark:text-black bg-gradient-to-r from-black to-zinc-700 dark:from-white dark:to-zinc-300 rounded-full inline-block absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                   Most Popular
                 </div>
                 <div className="flex flex-col gap-12 relative">
@@ -111,7 +117,7 @@ export function Pricing() {
                     <li className="flex items-center">
                       <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
                       <p className="text-black dark:text-zinc-400 text-sm">
-                        Custom URL
+                        Custom URL <span className="text-[10px]">(www.yourwebsitename.com)</span>
                       </p>
                     </li>
                     <li className="flex items-center">
@@ -123,13 +129,25 @@ export function Pricing() {
                     <li className="flex items-center">
                       <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
                       <p className="text-black dark:text-zinc-400 text-sm">
-                        SEO Optimization
+                        Google My Business Integration
                       </p>
                     </li>
                     <li className="flex items-center">
                       <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
                       <p className="text-black dark:text-zinc-400 text-sm">
-                        Connect Google My Business
+                        Automatic Backup and Restore
+                      </p>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
+                      <p className="text-black dark:text-zinc-400 text-sm">
+                        Advanced SEO Services
+                      </p>
+                    </li>
+                    <li className="flex items-center">
+                      <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
+                      <p className="text-black dark:text-zinc-400 text-sm">
+                        Enhanced Security Measures
                       </p>
                     </li>
                   </ul>
@@ -162,19 +180,31 @@ export function Pricing() {
                   <li className="flex items-center">
                     <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
                     <p className="text-black dark:text-zinc-400 text-sm">
-                      Tailored Features
-                    </p>
-                  </li>
-                  <li className="flex items-center">
-                    <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
-                    <p className="text-black dark:text-zinc-400 text-sm">
                       Unlimited Revisions
                     </p>
                   </li>
                   <li className="flex items-center">
                     <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
                     <p className="text-black dark:text-zinc-400 text-sm">
+                      Tailored Features
+                    </p>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
+                    <p className="text-black dark:text-zinc-400 text-sm">
                       Design + Development
+                    </p>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
+                    <p className="text-black dark:text-zinc-400 text-sm">
+                      Database Allocation
+                    </p>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckIcon className="w-4 h-4 text-white dark:text-black bg-black dark:bg-white rounded-full mr-2 p-1" />
+                    <p className="text-black dark:text-zinc-400 text-sm">
+                      API Integration
                     </p>
                   </li>
                 </ul>
